@@ -30,7 +30,7 @@ int CountWaysV2(int n)
     int previous2 = 2;  // of n = 2
     int result = 0;
 
-    // start of n = 2
+    // start of n = 3
     for (int i = 3; i <= n; i++)
     {
         result = previous2 + previous1;
